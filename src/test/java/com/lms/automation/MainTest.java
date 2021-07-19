@@ -62,6 +62,13 @@ public class MainTest {
            URL u = new URL("http://172.18.0.14:4444/wd/hub");
     RemoteWebDriver driver = new RemoteWebDriver(u,cap);
         String SITE_URL = ("https://www.programmersought.com/article/28561666176/");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.setExperimentalOption("useAutomationExtension", false);
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--start-maximized");
+        options.addArguments("--headless");
         driver.get(SITE_URL);
         System.out.println("All is good");
 
