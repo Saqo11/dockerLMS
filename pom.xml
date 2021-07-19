@@ -13,6 +13,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <aspectj.version>1.8.10</aspectj.version>
+        <slf4j.version>1.7.31</slf4j.version>
+        <logback.version>1.2.3</logback.version>
 
     </properties>
 
@@ -54,7 +56,16 @@
             <artifactId>selenide</artifactId>
             <version>5.17.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
     </dependencies>
 
 
@@ -97,8 +108,23 @@
                         <version>1.9.4</version>
                     </dependency>
                     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+                    <dependency>
+                        <groupId> org.apache.cassandra</groupId>
+                        <artifactId>cassandra-all</artifactId>
+                        <version>0.8.1</version>
 
+                        <exclusions>
+                            <exclusion>
+                                <groupId>org.slf4j</groupId>
+                                <artifactId>slf4j-log4j12</artifactId>
+                            </exclusion>
+                            <exclusion>
+                                <groupId>log4j</groupId>
+                                <artifactId>log4j</artifactId>
+                            </exclusion>
+                        </exclusions>
 
+                    </dependency>
                 </dependencies>
             </plugin>
             <!-- This is optional. It enables mvn goals: allure:serve allure:report -->

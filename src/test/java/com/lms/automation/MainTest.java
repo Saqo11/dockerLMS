@@ -53,15 +53,15 @@ public class MainTest {
     @BeforeEach
     public void start() throws MalformedURLException {
 
-     //  System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\chromeDriver\\chromedriver.exe");
+      //System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\chromeDriver\\chromedriver.exe");
 
-     //   driver = new ChromeDriver();
+      //  driver = new ChromeDriver();
 //
-      DesiredCapabilities cap = DesiredCapabilities.chrome();
+     DesiredCapabilities cap = DesiredCapabilities.chrome();
 //       URL u = new URL("http://localhost:4444/wd/hub");
            URL u = new URL("http://172.18.0.14:4444/wd/hub");
      RemoteWebDriver driver = new RemoteWebDriver(u,cap);
-        String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
+        String SITE_URL = ("https://www.programmersought.com/article/28561666176/");
         driver.get(SITE_URL);
         System.out.println("All is good");
 
