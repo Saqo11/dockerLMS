@@ -68,10 +68,15 @@ public class MainTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
         System.out.println("All is good");
-
-
-
         loginAdminPage = new LoginAdminPage(driver);
+        loginAdminPage.goTo()
+                .fillEmailField("saqo21harutyunyan+19@gmail.com")
+                .fillPassField("7rujd12f")
+                .clickLoginButton()
+                .ifDisplayedText();
+        System.out.println("All is good!!!!");
+
+
 
         coursesSectionAdminPage = new CoursesSectionAdminPage(driver);
 
