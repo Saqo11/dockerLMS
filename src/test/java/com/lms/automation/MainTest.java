@@ -65,7 +65,7 @@ public class MainTest {
 //
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setCapability("browserVersion", "91.0.4472.114");
-        WebDriver driver = new RemoteWebDriver(new URL("http://www.example.comhttp://172.18.0.14:4444/wd/hub"), chromeOptions);
+        WebDriver driver = new RemoteWebDriver(new URL("http://172.18.0.14:4444/wd/hub"), chromeOptions);
         System.out.println("All is good");
 
         driver.manage().window().maximize();
