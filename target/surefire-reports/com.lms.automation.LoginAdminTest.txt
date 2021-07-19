@@ -1,22 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.lms.automation.LoginAdminTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 10.349 s <<< FAILURE! - in com.lms.automation.LoginAdminTest
-SingInPositiveTest  Time elapsed: 6.088 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 537.157 s <<< FAILURE! - in com.lms.automation.LoginAdminTest
+SingInNegativeTest  Time elapsed: 300.16 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-Caused by: java.net.ConnectException: Connection refused: connect
-
-SingInNegativeTest  Time elapsed: 4.104 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-Caused by: java.net.ConnectException: Connection refused: connect
 
