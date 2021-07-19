@@ -10,7 +10,7 @@ public class LoginAdminTest extends MainTest {
                 .fillPassField("7rujd12f")
                 .clickLoginButton()
                 .ifDisplayedText();
-        System.out.println("All is good");
+        System.out.println("All is good!!!!");
 
 
     }
