@@ -62,6 +62,7 @@ public class MainTest {
            URL u = new URL("http://172.18.0.14:4444/wd/hub");
      RemoteWebDriver driver = new RemoteWebDriver(u,cap);
         String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
+        driver.get(SITE_URL);
         System.out.println("All is good");
 
 
