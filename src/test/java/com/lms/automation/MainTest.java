@@ -58,8 +58,8 @@ public class MainTest {
 //        driver = new ChromeDriver();
 
         DesiredCapabilities cap = DesiredCapabilities.chrome();
-        URL u = new URL("http://localhost:4444/wd/hub");
-        //        URL u = new URL("http://172.19.0.19:4444/wd/hub");
+       // URL u = new URL("http://localhost:4444/wd/hub");
+              URL u = new URL("http://172.19.0.19:4444/wd/hub");
         RemoteWebDriver driver = new RemoteWebDriver(u,cap);
         System.out.println("All is good");
 
