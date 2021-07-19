@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "SingInPositiveTest()",
+        "uid" : "c93d033e679dde47",
+        "parentUid" : "1f0b9bf5084202d3e68bdde2c694f8fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626683952937,
+          "stop" : 1626683958701,
+          "duration" : 5764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SingInNegativeTest()",
+        "uid" : "20456ada1a105ce3",
+        "parentUid" : "1f0b9bf5084202d3e68bdde2c694f8fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626683958993,
+          "stop" : 1626683963081,
+          "duration" : 4088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f0b9bf5084202d3e68bdde2c694f8fa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "27644da4710e6570805c40caa2ebfc5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c93d033e679dde47",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/4/allure/#testresult/c93d033e679dde47",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626683952937,
+        "stop" : 1626683958701,
+        "duration" : 5764
+      }
+    }, {
+      "uid" : "a0d4d83134a090d0",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/3/allure/#testresult/a0d4d83134a090d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626683372258,
+        "stop" : 1626683391017,
+        "duration" : 18759
+      }
+    } ]
+  },
+  "65d4f1c8f10ad5e724bf372343111a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "20456ada1a105ce3",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/4/allure/#testresult/20456ada1a105ce3",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626683958993,
+        "stop" : 1626683963081,
+        "duration" : 4088
+      }
+    }, {
+      "uid" : "4f1ac6521b2cb798",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/3/allure/#testresult/4f1ac6521b2cb798",
+      "status" : "broken",
+      "statusDetails" : "Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626683391262,
+        "stop" : 1626683691409,
+        "duration" : 300147
+      }
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+com\Eleap\Algorithms\com\Admin\page\MyAssignedSelfEnrollmentTab.class
+com\Eleap\Algorithms\com\Admin\page\ObservationChecklistTab.class
+com\Eleap\Algorithms\com\Admin\page\QuizResultTabs.class
+com\Eleap\Algorithms\com\Admin\page\OjtSectionPage.class
+com\Eleap\Algorithms\helpers\ComponentHelper.class
+com\Eleap\Algorithms\com\Admin\page\ManageCategoriesManageEventsTab.class
+com\Eleap\Algorithms\com\Admin\page\DropDownMenuTab.class
+com\Eleap\Algorithms\com\Admin\page\LoginAdminPage.class
+com\Eleap\Algorithms\com\Admin\page\CoursesSectionAdminPage.class
+com\Eleap\Algorithms\com\Admin\page\TrainingPathsAdminPage.class
+com\Eleap\Algorithms\user\page\UserDashboardPage.class
+com\Eleap\Algorithms\BasePage.class
+com\Eleap\Algorithms\com\Admin\page\BaseTab.class
+com\Eleap\Algorithms\com\Admin\page\UserSectionPage.class
+com\Eleap\Algorithms\helpers\WaitHelper.class

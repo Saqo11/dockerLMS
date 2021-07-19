@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.lms.automation.LoginAdminTest",
+    "children" : [ {
+      "name" : "SingInPositiveTest()",
+      "uid" : "c93d033e679dde47",
+      "parentUid" : "f814c58504cb0e47bc40a3779f961016",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626683952937,
+        "stop" : 1626683958701,
+        "duration" : 5764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "SingInNegativeTest()",
+      "uid" : "20456ada1a105ce3",
+      "parentUid" : "f814c58504cb0e47bc40a3779f961016",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626683958993,
+        "stop" : 1626683963081,
+        "duration" : 4088
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f814c58504cb0e47bc40a3779f961016"
+  } ]
+}

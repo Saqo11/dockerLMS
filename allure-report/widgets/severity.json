@@ -1,0 +1,21 @@
+[ {
+  "uid" : "20456ada1a105ce3",
+  "name" : "SingInNegativeTest()",
+  "time" : {
+    "start" : 1626683958993,
+    "stop" : 1626683963081,
+    "duration" : 4088
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c93d033e679dde47",
+  "name" : "SingInPositiveTest()",
+  "time" : {
+    "start" : 1626683952937,
+    "stop" : 1626683958701,
+    "duration" : 5764
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
