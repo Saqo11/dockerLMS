@@ -96,6 +96,15 @@
                         <artifactId>aspectjweaver</artifactId>
                         <version>1.9.4</version>
                     </dependency>
+                    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+                    <dependency>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-simple</artifactId>
+                        <version>1.7.30</version>
+                        <scope>test</scope>
+                    </dependency>
+
+
                 </dependencies>
             </plugin>
             <!-- This is optional. It enables mvn goals: allure:serve allure:report -->
