@@ -2,120 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.lms.automation",
+    "name" : "com.lms.automation.LoginAdminTest",
     "children" : [ {
-      "name" : "LoginAdminTest",
-      "children" : [ {
-        "name" : "SingInPositiveTest",
-        "uid" : "628c37969536b59c",
-        "parentUid" : "69b41ed4e306625db0a0f7d9324c4822",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626695913475,
-          "stop" : 1626695936335,
-          "duration" : 22860
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "SingInNegativeTest",
-        "uid" : "5562a5b8e3ef9042",
-        "parentUid" : "69b41ed4e306625db0a0f7d9324c4822",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626695936610,
-          "stop" : 1626695957652,
-          "duration" : 21042
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "69b41ed4e306625db0a0f7d9324c4822"
-    }, {
-      "name" : "UserSectionTest",
-      "children" : [ {
-        "name" : "deactivateUserLMS",
-        "uid" : "bd3081e71e06a3c3",
-        "parentUid" : "a4871718af066347adca2238b6fdd2e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626695957690,
-          "stop" : 1626695978728,
-          "duration" : 21038
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "leaveAllFieldEmpty_NegCase",
-        "uid" : "db37b206dc154145",
-        "parentUid" : "a4871718af066347adca2238b6fdd2e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626695978737,
-          "stop" : 1626695999767,
-          "duration" : 21030
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadImage",
-        "uid" : "96923e559799fc79",
-        "parentUid" : "a4871718af066347adca2238b6fdd2e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626695999778,
-          "stop" : 1626696020807,
-          "duration" : 21029
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "searchByCourseName",
-        "uid" : "bfe5d2feb6d09ce5",
-        "parentUid" : "a4871718af066347adca2238b6fdd2e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626696020817,
-          "stop" : 1626696041834,
-          "duration" : 21017
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "createUser",
-        "uid" : "64b3c34daa728c01",
-        "parentUid" : "a4871718af066347adca2238b6fdd2e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626696041845,
-          "stop" : 1626696062872,
-          "duration" : 21027
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "checkCustomFields",
-        "uid" : "f558fe40af17e4a3",
-        "parentUid" : "a4871718af066347adca2238b6fdd2e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1626696062881,
-          "stop" : 1626696083907,
-          "duration" : 21026
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a4871718af066347adca2238b6fdd2e5"
+      "name" : "SingInPositiveTest",
+      "uid" : "7ad1ab295f3b92ca",
+      "parentUid" : "69b41ed4e306625db0a0f7d9324c4822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626699893568,
+        "stop" : 1626700219658,
+        "duration" : 326090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "com.lms.automation"
+    "uid" : "com.lms.automation.LoginAdminTest"
   } ]
 }

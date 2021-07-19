@@ -1,81 +1,11 @@
 [ {
-  "uid" : "5562a5b8e3ef9042",
-  "name" : "SingInNegativeTest()",
-  "time" : {
-    "start" : 1626695936610,
-    "stop" : 1626695957652,
-    "duration" : 21042
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "628c37969536b59c",
+  "uid" : "7ad1ab295f3b92ca",
   "name" : "SingInPositiveTest()",
   "time" : {
-    "start" : 1626695913475,
-    "stop" : 1626695936335,
-    "duration" : 22860
+    "start" : 1626699893568,
+    "stop" : 1626700219658,
+    "duration" : 326090
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "64b3c34daa728c01",
-  "name" : "createUser()",
-  "time" : {
-    "start" : 1626696041845,
-    "stop" : 1626696062872,
-    "duration" : 21027
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "db37b206dc154145",
-  "name" : "leaveAllFieldEmpty_NegCase()",
-  "time" : {
-    "start" : 1626695978737,
-    "stop" : 1626695999767,
-    "duration" : 21030
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "96923e559799fc79",
-  "name" : "uploadImage()",
-  "time" : {
-    "start" : 1626695999778,
-    "stop" : 1626696020807,
-    "duration" : 21029
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bd3081e71e06a3c3",
-  "name" : "deactivateUserLMS()",
-  "time" : {
-    "start" : 1626695957690,
-    "stop" : 1626695978728,
-    "duration" : 21038
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f558fe40af17e4a3",
-  "name" : "checkCustomFields()",
-  "time" : {
-    "start" : 1626696062881,
-    "stop" : 1626696083907,
-    "duration" : 21026
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bfe5d2feb6d09ce5",
-  "name" : "searchByCourseName()",
-  "time" : {
-    "start" : 1626696020817,
-    "stop" : 1626696041834,
-    "duration" : 21017
-  },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

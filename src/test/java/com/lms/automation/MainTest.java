@@ -58,15 +58,16 @@ public class MainTest {
 //        driver = new ChromeDriver();
 
         DesiredCapabilities cap = DesiredCapabilities.chrome();
-        URL u = new URL("http://172.19.0.19:4444/wd/hub");
+        URL u = new URL("http://localhost:4444/wd/hub");
+        //        URL u = new URL("http://172.19.0.19:4444/wd/hub");
         RemoteWebDriver driver = new RemoteWebDriver(u,cap);
-        System.out.println("all is god");
+        System.out.println("All is good");
 
 
 
         driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
 
         loginAdminPage = new LoginAdminPage(driver);
 
