@@ -5,13 +5,13 @@
     "name" : "com.lms.automation.LoginAdminTest",
     "children" : [ {
       "name" : "SingInPositiveTest",
-      "uid" : "133e7eac64314b27",
+      "uid" : "73941ff6afdb3f7d",
       "parentUid" : "69b41ed4e306625db0a0f7d9324c4822",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1626701662284,
-        "stop" : 1626701687262,
-        "duration" : 24978
+        "start" : 1626720906350,
+        "stop" : 1626720968995,
+        "duration" : 62645
       },
       "flaky" : false,
       "newFailed" : false,

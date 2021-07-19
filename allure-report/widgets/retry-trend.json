@@ -1,4 +1,28 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/asdasd/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/asdasd/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/asdasd/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "http://localhost:8080/job/asdasd/2/allure",
   "reportName" : "AllureReport",

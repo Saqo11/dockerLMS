@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Mon Jul 19 17:34:22 AMT 2021","Mon Jul 19 17:34:47 AMT 2021","24978","","com.lms.automation.LoginAdminTest","","com.lms.automation.LoginAdminTest","SingInPositiveTest","SingInPositiveTest()",""
+"passed","Mon Jul 19 22:55:06 AMT 2021","Mon Jul 19 22:56:08 AMT 2021","62645","","com.lms.automation.LoginAdminTest","","com.lms.automation.LoginAdminTest","SingInPositiveTest","SingInPositiveTest()",""

@@ -1,11 +1,11 @@
 [ {
-  "uid" : "133e7eac64314b27",
+  "uid" : "73941ff6afdb3f7d",
   "name" : "SingInPositiveTest()",
   "time" : {
-    "start" : 1626701662284,
-    "stop" : 1626701687262,
-    "duration" : 24978
+    "start" : 1626720906350,
+    "stop" : 1626720968995,
+    "duration" : 62645
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

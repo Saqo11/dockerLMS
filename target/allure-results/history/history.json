@@ -4,20 +4,11 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 5
+      "total" : 4
     },
     "items" : [ {
-      "uid" : "73941ff6afdb3f7d",
-      "reportUrl" : "http://localhost:8080/job/asdasd/5/allure/#testresult/73941ff6afdb3f7d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1626720906350,
-        "stop" : 1626720968995,
-        "duration" : 62645
-      }
-    }, {
       "uid" : "7efa94541f8e24dd",
       "reportUrl" : "http://localhost:8080/job/asdasd/4/allure/#testresult/7efa94541f8e24dd",
       "status" : "broken",

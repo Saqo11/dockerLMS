@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "DESKTOP-4J87STC",
     "children" : [ {
-      "name" : "12240@DESKTOP-4J87STC.main(1)",
+      "name" : "12580@DESKTOP-4J87STC.main(1)",
       "children" : [ {
         "name" : "SingInPositiveTest()",
-        "uid" : "133e7eac64314b27",
-        "parentUid" : "893bee151184c0d26878b519abf2e523",
-        "status" : "broken",
+        "uid" : "73941ff6afdb3f7d",
+        "parentUid" : "b96c9be7a0f064cffe619c7faa5014a7",
+        "status" : "passed",
         "time" : {
-          "start" : 1626701662284,
-          "stop" : 1626701687262,
-          "duration" : 24978
+          "start" : 1626720906350,
+          "stop" : 1626720968995,
+          "duration" : 62645
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "893bee151184c0d26878b519abf2e523"
+      "uid" : "b96c9be7a0f064cffe619c7faa5014a7"
     } ],
     "uid" : "08dbc0f73eb2de945b2ba74362be2bec"
   } ]
