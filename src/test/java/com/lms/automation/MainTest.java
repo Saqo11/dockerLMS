@@ -57,22 +57,16 @@ public class MainTest {
 
       //  driver = new ChromeDriver();
 //
-     DesiredCapabilities cap = DesiredCapabilities.chrome();
-     //  URL u = new URL("http://localhost:4444/wd/hub");
-           URL u = new URL("http://172.18.0.14:4444/wd/hub");
-    RemoteWebDriver driver = new RemoteWebDriver(u,cap);
-        String SITE_URL = ("https://www.programmersought.com/article/28561666176/");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.setExperimentalOption("useAutomationExtension", false);
-        options.addArguments("--window-size=1920,1080");
-        options.addArguments("--start-maximized");
-        options.addArguments("--headless");
-        driver.get(SITE_URL);
+//     DesiredCapabilities cap = DesiredCapabilities.chrome();
+//     //  URL u = new URL("http://localhost:4444/wd/hub");
+//           URL u = new URL("http://172.18.0.14:4444/wd/hub");
+//    RemoteWebDriver driver = new RemoteWebDriver(u,cap);
+
+//
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setCapability("browserVersion", "91.0.4472.114");
+        WebDriver driver = new RemoteWebDriver(new URL("http://www.example.comhttp://172.18.0.14:4444/wd/hub"), chromeOptions);
         System.out.println("All is good");
-
-
 
         driver.manage().window().maximize();
 
