@@ -1,0 +1,208 @@
+{
+  "65d4f1c8f10ad5e724bf372343111a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c3b259376148f67c",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/c3b259376148f67c",
+      "status" : "broken",
+      "statusDetails" : "Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626695041299,
+        "stop" : 1626695343997,
+        "duration" : 302698
+      }
+    }, {
+      "uid" : "20456ada1a105ce3",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/4/allure/#testresult/20456ada1a105ce3",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626683958993,
+        "stop" : 1626683963081,
+        "duration" : 4088
+      }
+    }, {
+      "uid" : "4f1ac6521b2cb798",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/3/allure/#testresult/4f1ac6521b2cb798",
+      "status" : "broken",
+      "statusDetails" : "Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626683391262,
+        "stop" : 1626683691409,
+        "duration" : 300147
+      }
+    } ]
+  },
+  "235126a411feb950727175533b71cb2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e99b08a1d3e1703",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/7e99b08a1d3e1703",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1626695324753,
+        "stop" : 1626695592207,
+        "duration" : 267454
+      }
+    } ]
+  },
+  "385e60f8ef11e8d878e7c29b389f8435" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8881625596c9144",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/a8881625596c9144",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1626694533719,
+        "stop" : 1626694651709,
+        "duration" : 117990
+      }
+    } ]
+  },
+  "27644da4710e6570805c40caa2ebfc5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "67fef447ff2caa22",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/67fef447ff2caa22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626693996730,
+        "stop" : 1626694233271,
+        "duration" : 236541
+      }
+    }, {
+      "uid" : "c93d033e679dde47",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/4/allure/#testresult/c93d033e679dde47",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626683952937,
+        "stop" : 1626683958701,
+        "duration" : 5764
+      }
+    }, {
+      "uid" : "a0d4d83134a090d0",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/3/allure/#testresult/a0d4d83134a090d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626683372258,
+        "stop" : 1626683391017,
+        "duration" : 18759
+      }
+    } ]
+  },
+  "e58876cf294f53979c43ba59283984b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cedc80bb30f2c94",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/cedc80bb30f2c94",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: File not found : C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\dfdfdf.png\n  (Session info: chrome=91.0.4472.114)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.ziXw6N}, goog:chromeOptions: {debuggerAddress: localhost:33333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5e4fa74b9f62b6a0bc6f00ffe418657a",
+      "time" : {
+        "start" : 1626694951857,
+        "stop" : 1626695024645,
+        "duration" : 72788
+      }
+    } ]
+  },
+  "bd63f876d62a04d9ebb343a8c2fcbdbe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24524611bd7975bf",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/24524611bd7975bf",
+      "status" : "broken",
+      "statusDetails" : "Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626694651728,
+        "stop" : 1626694951840,
+        "duration" : 300112
+      }
+    } ]
+  },
+  "2855b34a4079ec56698ae1dabf8eeb35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e19e1aaa320a7ad5",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/e19e1aaa320a7ad5",
+      "status" : "broken",
+      "statusDetails" : "Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626695592218,
+        "stop" : 1626695892301,
+        "duration" : 300083
+      }
+    } ]
+  },
+  "b2109332bee5e489eae5bd9f5de642c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "171bb5bb53a53a9d",
+      "reportUrl" : "http://localhost:8080/job/dsfsdfsd/5/allure/#testresult/171bb5bb53a53a9d",
+      "status" : "broken",
+      "statusDetails" : "Unable to create new remote session. desired capabilities = Capabilities {browserName: chrome, platform: ANY, version: }\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626695024660,
+        "stop" : 1626695324742,
+        "duration" : 300082
+      }
+    } ]
+  }
+}
