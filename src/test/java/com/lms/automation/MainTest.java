@@ -71,11 +71,11 @@ public class MainTest {
         chromeOptions.merge(capabilities);
         chromeOptions.setCapability("browserVersion", "91.0.4472.114");
         WebDriver driver = new RemoteWebDriver(new URL("http://172.18.0.14:4444/wd/hub"), chromeOptions);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
         System.out.println("All is good");
 
-        driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
 
         loginAdminPage = new LoginAdminPage(driver);
 
