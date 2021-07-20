@@ -62,6 +62,14 @@ public class MainTest {
            URL u = new URL("http://172.19.0.19:4444/wd/hub");
 
      RemoteWebDriver driver = new RemoteWebDriver(u,cap);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-extensions");
+        options.addArguments("test-type");
+        options.addArguments("--disable-extensions");
+        options.addArguments("test-type");
+        cap.setCapability(ChromeOptions.CAPABILITY, options);
+        driver = new ChromeDriver(cap);
+
 //        String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
 //        driver.get(SITE_URL);
         System.out.println("All is good");
