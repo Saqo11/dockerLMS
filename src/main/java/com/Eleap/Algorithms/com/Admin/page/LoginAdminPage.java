@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginAdminPage extends BasePage {
 
-    String SITE_URL = ("https://stackoverflow.com/questions/14869311/start-stop-and-restart-jenkins-service-on-windows/14869398");
+    String SITE_URL = ("https://largeaccounttest.2leap.com/");
 
 
     public LoginAdminPage(WebDriver driver) {
