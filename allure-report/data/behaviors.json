@@ -3,13 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "SingInPositiveTest()",
-    "uid" : "73941ff6afdb3f7d",
+    "uid" : "dffcfefc77ae567b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1626720906350,
-      "stop" : 1626720968995,
-      "duration" : 62645
+      "start" : 1626788109390,
+      "stop" : 1626788123076,
+      "duration" : 13686
     },
     "flaky" : false,
     "newFailed" : false,

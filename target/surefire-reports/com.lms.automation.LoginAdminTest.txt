@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.lms.automation.LoginAdminTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.967 s - in com.lms.automation.LoginAdminTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.24 s - in com.lms.automation.LoginAdminTest
