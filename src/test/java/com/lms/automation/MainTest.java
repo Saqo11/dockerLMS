@@ -53,22 +53,23 @@ public class MainTest {
     @BeforeEach
     public void start() throws MalformedURLException {
 
-      //System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\chromeDriver\\chromedriver.exe");
+     //  System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\chromeDriver\\chromedriver.exe");
 
-      //  driver = new ChromeDriver();
+     //   driver = new ChromeDriver();
 //
-//     DesiredCapabilities cap = DesiredCapabilities.chrome();
-//     //  URL u = new URL("http://localhost:4444/wd/hub");
-//           URL u = new URL("http://172.18.0.14:4444/wd/hub");
-//    RemoteWebDriver driver = new RemoteWebDriver(u,cap);
-
-
-        ChromeOptions chromeOptions = new ChromeOptions();
-        WebDriver driver = new RemoteWebDriver(new URL("https://selenium.ci.telania.net/wd/hub"), chromeOptions);
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
+      DesiredCapabilities cap = DesiredCapabilities.chrome();
+//       URL u = new URL("http://localhost:4444/wd/hub");
+           URL u = new URL("https://selenium.ci.telania.net/wd/hub");
+     RemoteWebDriver driver = new RemoteWebDriver(u,cap);
+        String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
+        driver.get(SITE_URL);
         System.out.println("All is good");
 
+
+
+        driver.manage().window().maximize();
+
+        driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
 
         loginAdminPage = new LoginAdminPage(driver);
 
