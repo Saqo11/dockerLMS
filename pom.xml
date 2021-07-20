@@ -90,6 +90,9 @@
                 <!-- AspectJ is needed to process some annotation like @Attachment etc.-->
                 <configuration>
                     <useSystemClassLoader>false</useSystemClassLoader>
+                    <parallel>methods</parallel>
+                    <threadCount>2</threadCount>
+                    <perCoreThreadCount>false</perCoreThreadCount><!-- IMPORTANT!!! -->
 
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
