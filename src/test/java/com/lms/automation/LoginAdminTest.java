@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 public class LoginAdminTest extends MainTest {
     @Test
     public void SingInPositiveTest() {
-        loginAdminPage.goTo();
-//                .fillEmailField("saqo21harutyunyan+19@gmail.com")
-//                .fillPassField("7rujd12f")
-//                .clickLoginButton()
-//                .ifDisplayedText();
+        loginAdminPage.goTo()
+              .fillEmailField("saqo21harutyunyan+19@gmail.com")
+                .fillPassField("7rujd12f")
+               .clickLoginButton()
+               .ifDisplayedText();
         System.out.println("All is good!!!!");
 
 

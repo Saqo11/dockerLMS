@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginAdminPage extends BasePage {
 
-    String SITE_URL = ("https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html");
+    String SITE_URL = ("http://largeaccounttest.2leap.com/");
 
 
     public LoginAdminPage(WebDriver driver) {
