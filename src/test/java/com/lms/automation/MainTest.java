@@ -59,7 +59,7 @@ public class MainTest {
 //
       DesiredCapabilities cap = DesiredCapabilities.chrome();
 //       URL u = new URL("http://localhost:4444/wd/hub");
-           URL u = new URL("https://selenium.ci.telania.net/wd/hub");
+           URL u = new URL("https://selenium.ci.telania.net:443/wd/hub");
      RemoteWebDriver driver = new RemoteWebDriver(u,cap);
         String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
         driver.get(SITE_URL);
