@@ -16,6 +16,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -58,17 +60,19 @@ public class MainTest {
      //   driver = new ChromeDriver();
 //
       DesiredCapabilities cap = DesiredCapabilities.chrome();
-   // URL u = new URL("http://localhost:4444/wd/hub");
+   //URL u = new URL("http://localhost:4444/wd/hub");
            URL u = new URL("http://172.19.0.19:4444/wd/hub");
 
      RemoteWebDriver driver = new RemoteWebDriver(u,cap);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities = DesiredCapabilities.chrome();
         ChromeOptions options = new ChromeOptions();
+        Map<String, Object> prefs = new HashMap<String, Object>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+        options.setExperimentalOption("prefs", prefs);
         options.addArguments("--disable-extensions");
-        options.addArguments("test-type");
-        options.addArguments("--disable-extensions");
-        options.addArguments("test-type");
-        cap.setCapability(ChromeOptions.CAPABILITY, options);
-        driver = new ChromeDriver(cap);
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
 //        String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
 //        driver.get(SITE_URL);
