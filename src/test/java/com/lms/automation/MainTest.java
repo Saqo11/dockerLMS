@@ -82,7 +82,7 @@ public class MainTest {
 
         driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(10008, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         loginAdminPage = new LoginAdminPage(driver);
 
