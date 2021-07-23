@@ -1,22 +1,117 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "com.lms.automation.LoginAdminTest",
     "children" : [ {
       "name" : "SingInPositiveTest()",
-      "uid" : "dffcfefc77ae567b",
+      "uid" : "c51f744d611e3751",
       "parentUid" : "f814c58504cb0e47bc40a3779f961016",
       "status" : "passed",
       "time" : {
-        "start" : 1626788109390,
-        "stop" : 1626788123076,
-        "duration" : 13686
+        "start" : 1627026111568,
+        "stop" : 1627026159732,
+        "duration" : 48164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "SingInNegativeTest()",
+      "uid" : "d9c0f0ba79338214",
+      "parentUid" : "f814c58504cb0e47bc40a3779f961016",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026160098,
+        "stop" : 1627026173263,
+        "duration" : 13165
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "f814c58504cb0e47bc40a3779f961016"
-  } ]
+  }, {
+    "name" : "com.lms.automation.UserSectionTest",
+    "children" : [ {
+      "name" : "deactivateUserLMS()",
+      "uid" : "b1c21bc2e817e2f9",
+      "parentUid" : "93b6f70a8f17d6fe28931800c14cb612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026173319,
+        "stop" : 1627026219110,
+        "duration" : 45791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "leaveAllFieldEmpty_NegCase()",
+      "uid" : "ca67178a68a9a0ba",
+      "parentUid" : "93b6f70a8f17d6fe28931800c14cb612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026219122,
+        "stop" : 1627026258136,
+        "duration" : 39014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "uploadImage()",
+      "uid" : "42a4fd8cb47846d",
+      "parentUid" : "93b6f70a8f17d6fe28931800c14cb612",
+      "status" : "broken",
+      "time" : {
+        "start" : 1627026258145,
+        "stop" : 1627026341163,
+        "duration" : 83018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchByCourseName()",
+      "uid" : "a79873c88ad7641c",
+      "parentUid" : "93b6f70a8f17d6fe28931800c14cb612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026341231,
+        "stop" : 1627026492870,
+        "duration" : 151639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createUser()",
+      "uid" : "6585e69b7aa0138e",
+      "parentUid" : "93b6f70a8f17d6fe28931800c14cb612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026492878,
+        "stop" : 1627026529998,
+        "duration" : 37120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkCustomFields()",
+      "uid" : "b536c9378d18f641",
+      "parentUid" : "93b6f70a8f17d6fe28931800c14cb612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026530009,
+        "stop" : 1627026559986,
+        "duration" : 29977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "93b6f70a8f17d6fe28931800c14cb612"
+  } ],
+  "name" : "suites"
 }

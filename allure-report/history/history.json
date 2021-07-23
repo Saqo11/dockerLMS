@@ -1,14 +1,101 @@
 {
+  "65d4f1c8f10ad5e724bf372343111a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d9c0f0ba79338214",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/d9c0f0ba79338214",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026160098,
+        "stop" : 1627026173263,
+        "duration" : 13165
+      }
+    }, {
+      "uid" : "abeeeaf89776fb65",
+      "reportUrl" : "http://localhost:8080/job/asdasd/7/allure/#testresult/abeeeaf89776fb65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026030597,
+        "stop" : 1627026044389,
+        "duration" : 13792
+      }
+    } ]
+  },
+  "235126a411feb950727175533b71cb2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6585e69b7aa0138e",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/6585e69b7aa0138e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026492878,
+        "stop" : 1627026529998,
+        "duration" : 37120
+      }
+    } ]
+  },
+  "385e60f8ef11e8d878e7c29b389f8435" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1c21bc2e817e2f9",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/b1c21bc2e817e2f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026173319,
+        "stop" : 1627026219110,
+        "duration" : 45791
+      }
+    } ]
+  },
   "27644da4710e6570805c40caa2ebfc5" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "c51f744d611e3751",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/c51f744d611e3751",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026111568,
+        "stop" : 1627026159732,
+        "duration" : 48164
+      }
+    }, {
+      "uid" : "48b120b2f7159975",
+      "reportUrl" : "http://localhost:8080/job/asdasd/7/allure/#testresult/48b120b2f7159975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026009546,
+        "stop" : 1627026030246,
+        "duration" : 20700
+      }
+    }, {
       "uid" : "dffcfefc77ae567b",
       "reportUrl" : "http://localhost:8080/job/asdasd/6/allure/#testresult/dffcfefc77ae567b",
       "status" : "passed",
@@ -64,6 +151,87 @@
         "start" : 1626699893568,
         "stop" : 1626700219658,
         "duration" : 326090
+      }
+    } ]
+  },
+  "bd63f876d62a04d9ebb343a8c2fcbdbe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca67178a68a9a0ba",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/ca67178a68a9a0ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026219122,
+        "stop" : 1627026258136,
+        "duration" : 39014
+      }
+    } ]
+  },
+  "e58876cf294f53979c43ba59283984b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42a4fd8cb47846d",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/42a4fd8cb47846d",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: File not found : C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\dfdfdf.png\n  (Session info: chrome=91.0.4472.114)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.s9o4Dr}, goog:chromeOptions: {debuggerAddress: localhost:42113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.4:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b29265711546b964ebecda110ca516af",
+      "time" : {
+        "start" : 1627026258145,
+        "stop" : 1627026341163,
+        "duration" : 83018
+      }
+    } ]
+  },
+  "2855b34a4079ec56698ae1dabf8eeb35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b536c9378d18f641",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/b536c9378d18f641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026530009,
+        "stop" : 1627026559986,
+        "duration" : 29977
+      }
+    } ]
+  },
+  "b2109332bee5e489eae5bd9f5de642c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a79873c88ad7641c",
+      "reportUrl" : "http://localhost:8080/job/asdasd/8/allure/#testresult/a79873c88ad7641c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026341231,
+        "stop" : 1627026492870,
+        "duration" : 151639
       }
     } ]
   }

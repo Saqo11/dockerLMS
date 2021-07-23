@@ -12,19 +12,18 @@ public class LoginAdminTest extends MainTest {
                 .ifDisplayedText();
         System.out.println("All is good!!!!");
 
-
     }
 
-//    @Test
-//    public void SingInNegativeTest() {
-//        loginAdminPage.goTo()
-//                .fillEmailField("saqo21harustyunyan+19@gmail.com")
-//                .fillPassField("7rujds12f")
-//                .clickLoginButton()
-//                .ifDisplayedAnErrorMessage();
-//
-//
-//    }
+    @Test
+    public void SingInNegativeTest() {
+        loginAdminPage.goTo()
+                .fillEmailField("saqo21harustyunyan+19@gmail.com")
+                .fillPassField("7rujds12f")
+                .clickLoginButton()
+                .ifDisplayedAnErrorMessage();
+
+
+    }
 
 
 }

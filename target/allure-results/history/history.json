@@ -1,0 +1,99 @@
+{
+  "27644da4710e6570805c40caa2ebfc5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "48b120b2f7159975",
+      "reportUrl" : "http://localhost:8080/job/asdasd/7/allure/#testresult/48b120b2f7159975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026009546,
+        "stop" : 1627026030246,
+        "duration" : 20700
+      }
+    }, {
+      "uid" : "dffcfefc77ae567b",
+      "reportUrl" : "http://localhost:8080/job/asdasd/6/allure/#testresult/dffcfefc77ae567b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626788109390,
+        "stop" : 1626788123076,
+        "duration" : 13686
+      }
+    }, {
+      "uid" : "73941ff6afdb3f7d",
+      "reportUrl" : "http://localhost:8080/job/asdasd/5/allure/#testresult/73941ff6afdb3f7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626720906350,
+        "stop" : 1626720968995,
+        "duration" : 62645
+      }
+    }, {
+      "uid" : "7efa94541f8e24dd",
+      "reportUrl" : "http://localhost:8080/job/asdasd/4/allure/#testresult/7efa94541f8e24dd",
+      "status" : "broken",
+      "statusDetails" : "The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html",
+      "time" : {
+        "start" : 1626720801182,
+        "stop" : 1626720801435,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "f624886a6e10f338",
+      "reportUrl" : "http://localhost:8080/job/asdasd/3/allure/#testresult/f624886a6e10f338",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626720717113,
+        "stop" : 1626720722665,
+        "duration" : 5552
+      }
+    }, {
+      "uid" : "133e7eac64314b27",
+      "reportUrl" : "http://localhost:8080/job/asdasd/2/allure/#testresult/133e7eac64314b27",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1626701662284,
+        "stop" : 1626701687262,
+        "duration" : 24978
+      }
+    }, {
+      "uid" : "7ad1ab295f3b92ca",
+      "reportUrl" : "http://localhost:8080/job/asdasd/1/allure/#testresult/7ad1ab295f3b92ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626699893568,
+        "stop" : 1626700219658,
+        "duration" : 326090
+      }
+    } ]
+  },
+  "65d4f1c8f10ad5e724bf372343111a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abeeeaf89776fb65",
+      "reportUrl" : "http://localhost:8080/job/asdasd/7/allure/#testresult/abeeeaf89776fb65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627026030597,
+        "stop" : 1627026044389,
+        "duration" : 13792
+      }
+    } ]
+  }
+}

@@ -2,17 +2,13 @@ package com.lms.automation;
 
 import com.Eleap.Algorithms.com.Admin.page.*;
 import com.Eleap.Algorithms.user.page.UserDashboardPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.PageFactory;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -23,9 +19,7 @@ import java.util.concurrent.TimeUnit;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 
 public class MainTest {
-    public WebDriver driver;
-
-
+    WebDriver driver;
 
     public LoginAdminPage loginAdminPage;
 
@@ -47,23 +41,16 @@ public class MainTest {
 
     public static OjtSectionPage ojtSectionPage;
 
-    public  static  UserSectionPage userSectionPage;
-
-
+    public static UserSectionPage userSectionPage;
 
 
     @BeforeEach
     public void start() throws MalformedURLException {
 
-     //  System.setProperty("webdriver.chrome.driver", "C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\chromeDriver\\chromedriver.exe");
-
-     //   driver = new ChromeDriver();
-//
-      DesiredCapabilities cap = DesiredCapabilities.chrome();
-  // URL u = new URL("http://localhost:4444/wd/hub");
+        DesiredCapabilities cap = DesiredCapabilities.chrome();
+       // URL u = new URL("http://localhost:4444/wd/hub");
           URL u = new URL("http://172.19.0.19:4444/wd/hub");
-
-     RemoteWebDriver driver = new RemoteWebDriver(u,cap);
+         driver = new RemoteWebDriver(u, cap);
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities = DesiredCapabilities.chrome();
         ChromeOptions options = new ChromeOptions();
@@ -73,11 +60,7 @@ public class MainTest {
         options.setExperimentalOption("prefs", prefs);
         options.addArguments("--disable-extensions");
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-
-//        String SITE_URL = ("https://largeaccounttest.eleapdev.com/");
-//        driver.get(SITE_URL);
         System.out.println("All is good");
-
 
 
         driver.manage().window().maximize();
@@ -106,15 +89,19 @@ public class MainTest {
 
         userSectionPage = new UserSectionPage(driver);
 
+        System.out.println("okokokokoko");
+
     }
 
 
-//    @AfterEach
-//    public void finish() {
-//        driver.close();
-//
-//        }
+    @AfterEach
+    void finish() throws MalformedURLException {
+        driver.quit();
+
     }
+
+
+}
 
 
 
