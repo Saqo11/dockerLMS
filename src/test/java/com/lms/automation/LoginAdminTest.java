@@ -1,6 +1,10 @@
 package com.lms.automation;
 
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LoginAdminTest extends MainTest {
     @Test
@@ -21,6 +25,11 @@ public class LoginAdminTest extends MainTest {
                 .fillPassField("7rujds12f")
                 .clickLoginButton()
                 .ifDisplayedAnErrorMessage();
+
+
+        WebElement success = driver.findElement(By.cssSelector(".alert.alert-success"));
+        boolean userWasAdded = success.isDisplayed();
+        assertEquals(true, userWasAdded);
 
 
     }
