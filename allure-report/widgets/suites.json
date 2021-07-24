@@ -1,26 +1,15 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "93b6f70a8f17d6fe28931800c14cb612",
-    "name" : "com.lms.automation.UserSectionTest",
+    "uid" : "0e85b397b2751a5d653b2f3445d5ec0b",
+    "name" : "com.lms.automation.CourseSectionAdminTest",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 15,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "f814c58504cb0e47bc40a3779f961016",
-    "name" : "com.lms.automation.LoginAdminTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
+      "total" : 15
     }
   } ]
 }
