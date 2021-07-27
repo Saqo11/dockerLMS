@@ -48,7 +48,7 @@ public class MainTest {
     public void start() throws MalformedURLException {
 
         DesiredCapabilities cap = DesiredCapabilities.chrome();
-      //  URL u = new URL("http://localhost:4444/wd/hub");
+       // URL u = new URL("http://localhost:4444/wd/hub");
          URL u = new URL("http://172.19.0.19:4444/wd/hub");
          driver = new RemoteWebDriver(u, cap);
         DesiredCapabilities capabilities = new DesiredCapabilities();

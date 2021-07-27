@@ -4,204 +4,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: driver.version: RemoteWebDriver",
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".alert.alert-success\"}\n  (Session info: chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.52b6O6}, goog:chromeOptions: {debuggerAddress: localhost:41549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 867936d767f7a4f62b5e91565e694a92\n*** Element info: {Using=css selector, value=.alert.alert-success}",
       "children" : [ {
-        "name" : "chooseLimitedCompletionTime()",
-        "uid" : "a4a1b3a42666c6c9",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
+        "name" : "SingInNegativeTest()",
+        "uid" : "20c40041707befe",
+        "parentUid" : "187aa575862882a557a618e9ee17355c",
         "status" : "broken",
         "time" : {
-          "start" : 1627109988086,
-          "stop" : 1627109994724,
-          "duration" : 6638
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "editFAQ()",
-        "uid" : "ae839c10d0f5e92d",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627109995100,
-          "stop" : 1627109999513,
-          "duration" : 4413
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "quizSettings()",
-        "uid" : "36011d6240bd167",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627109999538,
-          "stop" : 1627110003591,
-          "duration" : 4053
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addAQuizToTheLesson()",
-        "uid" : "b2f4d34549d5c99b",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110003599,
-          "stop" : 1627110007691,
-          "duration" : 4092
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "quizResultsSection()",
-        "uid" : "c481e741b525845",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110007723,
-          "stop" : 1627110011800,
-          "duration" : 4077
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "myAssignedCoursesSearchByCourseName()",
-        "uid" : "eab35e1f1e4c2056",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110011824,
-          "stop" : 1627110015888,
-          "duration" : 4064
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "quizSectionInactiveButton()",
-        "uid" : "aab161d7c9bc4dac",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110015904,
-          "stop" : 1627110019965,
-          "duration" : 4061
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "ActivateTheLessonField()",
-        "uid" : "306ab3980e967839",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110019973,
-          "stop" : 1627110024043,
-          "duration" : 4070
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "manageCategoriesAddNewCategoryButton()",
-        "uid" : "329eb8a2c9a8bf7e",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110024051,
-          "stop" : 1627110028105,
-          "duration" : 4054
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "scormResultsSection()",
-        "uid" : "dbfb174d829fde64",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110028113,
-          "stop" : 1627110032185,
-          "duration" : 4072
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "LeaveAllFieldEmptyOnCourseDefinitionSection()",
-        "uid" : "144e83cc7e35d933",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110032201,
-          "stop" : 1627110036278,
-          "duration" : 4077
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "manageEventsAddNewEventNameFilter()",
-        "uid" : "d42c52a611afdb37",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110036310,
-          "stop" : 1627110040388,
-          "duration" : 4078
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "assignNewTrainingPath()",
-        "uid" : "d6c95888c1f65f44",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110040416,
-          "stop" : 1627110044481,
-          "duration" : 4065
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "quizFilters()",
-        "uid" : "3823c601a64b2a38",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110044513,
-          "stop" : 1627110048602,
-          "duration" : 4089
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "glossary()",
-        "uid" : "b8980edaf13045a8",
-        "parentUid" : "1a40d8afe55fba39131a82ada790aff7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627110048634,
-          "stop" : 1627110052761,
-          "duration" : 4127
+          "start" : 1627367750638,
+          "stop" : 1627367765387,
+          "duration" : 14749
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1a40d8afe55fba39131a82ada790aff7"
+      "uid" : "187aa575862882a557a618e9ee17355c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

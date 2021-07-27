@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "0e85b397b2751a5d653b2f3445d5ec0b",
-    "name" : "com.lms.automation.CourseSectionAdminTest",
+    "uid" : "f814c58504cb0e47bc40a3779f961016",
+    "name" : "com.lms.automation.LoginAdminTest",
     "statistic" : {
       "failed" : 0,
-      "broken" : 15,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 15
+      "total" : 2
     }
   } ]
 }
