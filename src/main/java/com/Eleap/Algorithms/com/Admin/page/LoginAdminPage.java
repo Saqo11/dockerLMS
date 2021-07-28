@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginAdminPage extends BasePage {
 
-    String SITE_URL = ("https://eleapdemo.eleapdev.com/");
+    String SITE_URL = ("http://eleapdemo.eleapdev.com/");
 
 
     public LoginAdminPage(WebDriver driver) {
