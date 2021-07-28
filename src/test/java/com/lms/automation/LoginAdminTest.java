@@ -10,8 +10,8 @@ public class LoginAdminTest extends MainTest {
     @Test
     public void SingInPositiveTest() {
         loginAdminPage.goTo()
-                .fillEmailField("saqo21harutyunyan+19@gmail.com")
-                .fillPassField("7rujd12f")
+                .fillEmailField("hermineadamyan.dev@gmail.com")
+                .fillPassField("testtest1")
                 .clickLoginButton()
                 .ifDisplayedText();
         System.out.println("All is good!!!!");
