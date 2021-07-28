@@ -1,20 +1,20 @@
 [ {
-  "uid" : "20c40041707befe",
-  "name" : "SingInNegativeTest()",
-  "time" : {
-    "start" : 1627367750638,
-    "stop" : 1627367765387,
-    "duration" : 14749
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "799e60beb2e5f31",
+  "uid" : "ab564c84cb8eb87a",
   "name" : "SingInPositiveTest()",
   "time" : {
-    "start" : 1627367735208,
-    "stop" : 1627367750412,
-    "duration" : 15204
+    "start" : 1627455272194,
+    "stop" : 1627455287373,
+    "duration" : 15179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6dc2906ed7bd439",
+  "name" : "SingInNegativeTest()",
+  "time" : {
+    "start" : 1627455287685,
+    "stop" : 1627455295906,
+    "duration" : 8221
   },
   "status" : "passed",
   "severity" : "normal"

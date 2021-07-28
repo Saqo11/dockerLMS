@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".alert.alert-success\"}\n  (Session info: chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-4J87STC', ip: '192.168.0.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.52b6O6}, goog:chromeOptions: {debuggerAddress: localhost:41549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 867936d767f7a4f62b5e91565e694a92\n*** Element info: {Using=css selector, value=.alert.alert-success}",
-      "children" : [ {
-        "name" : "SingInNegativeTest()",
-        "uid" : "20c40041707befe",
-        "parentUid" : "187aa575862882a557a618e9ee17355c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1627367750638,
-          "stop" : 1627367765387,
-          "duration" : 14749
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "187aa575862882a557a618e9ee17355c"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

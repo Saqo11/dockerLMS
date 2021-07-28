@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue Jul 27 10:35:50 AMT 2021","Tue Jul 27 10:36:05 AMT 2021","14749","","com.lms.automation.LoginAdminTest","","com.lms.automation.LoginAdminTest","SingInNegativeTest","SingInNegativeTest()",""
-"passed","Tue Jul 27 10:35:35 AMT 2021","Tue Jul 27 10:35:50 AMT 2021","15204","","com.lms.automation.LoginAdminTest","","com.lms.automation.LoginAdminTest","SingInPositiveTest","SingInPositiveTest()",""
+"passed","Wed Jul 28 10:54:32 AMT 2021","Wed Jul 28 10:54:47 AMT 2021","15179","","com.lms.automation.LoginAdminTest","","com.lms.automation.LoginAdminTest","SingInPositiveTest","SingInPositiveTest()",""
+"passed","Wed Jul 28 10:54:47 AMT 2021","Wed Jul 28 10:54:55 AMT 2021","8221","","com.lms.automation.LoginAdminTest","","com.lms.automation.LoginAdminTest","SingInNegativeTest","SingInNegativeTest()",""

@@ -91,7 +91,7 @@
 //        WebElement displayedCourse = driver.findElement(By.xpath("//a[text()='AutoCourse']"));
 //        boolean courseDisplay = displayedCourse.isDisplayed();
 //        assertEquals(true, courseDisplay);
-//
+////
 //        coursesSectionAdminPage
 //                .goToCourses()
 //                .search_By_Course_Name()
