@@ -1,7 +1,6 @@
 package com.Eleap.Algorithms.com.Admin.page;
 
 import com.Eleap.Algorithms.BasePage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -86,6 +85,57 @@ public class UserSectionPage extends BasePage {
 
     @FindBy(css = "#upload-form-profile .btn.btn-default")
     private WebElement uploadFile;
+
+    @FindBy(css = ".btn.btn-link.pl-0.pr-0")
+    private WebElement editUserButton;
+
+    @FindBy(css = ".btn.btn-primary")
+    private WebElement saveChanges;
+
+    @FindBy(css = ".right_part_pr .text-uppercase")
+    private WebElement chooseFileButton;
+
+    @FindBy(css = ".right_part_pr #upload_file_for")
+    private WebElement uploadFileForUser;
+
+    @FindBy(css = ".btn-link.btn-grey-link")
+    private WebElement changePass;
+
+    @FindBy(css = "[name='new_password']")
+    private WebElement newPass;
+
+    @FindBy(css = "[name='confirm_password']")
+    private WebElement confirmPass;
+
+    @FindBy(css = ".btn.btn-primary.mt-3")
+    private WebElement setPass;
+
+    @FindBy(css = ".btn.btn-primary.see-instructions-btn")
+    private WebElement specialInstruction;
+
+    @FindBy(css = ".btn.btn-primary.mt-3.d-flex.align-items-center")
+    private WebElement goToDashboard;
+
+    @FindBy(css = ".enjoyhint_skip_btn.mySkip")
+    private WebElement skipTour;
+
+    @FindBy(css = ".resp-submenu ul> li:nth-child(4)")
+    private WebElement UserGroupSection;
+
+    @FindBy(css = ".btn.btn-primary.mr")
+    private WebElement addUserGroupButton;
+
+    @FindBy(css = "[placeholder='Name *']")
+    private WebElement groupNameField;
+
+    @FindBy(css = ".btn.m-0.btn-primary")
+    private WebElement addGroup;
+
+    @FindBy(xpath = "//a[text()='AutoRobot']")
+    private WebElement autoRobotGroup;
+
+    @FindBy(css = "tbody > tr:nth-child(2) .ml.destructive")
+    private WebElement deleteUserGroup;
 
 
     public UserSectionPage goUserSection() {
@@ -197,6 +247,89 @@ public class UserSectionPage extends BasePage {
 
     }
 
+    private void clickEditUserButton() {
+        editUserButton.click();
+
+    }
+
+    private void clickSaveChanges() throws InterruptedException {
+        scrollDown(driver);
+        saveChanges.click();
+
+    }
+
+    private void clickChooseFileButton() throws InterruptedException {
+        chooseFileButton.click();
+    }
+
+
+    private void addFileFOrUSer() {
+        uploadFileForUser.sendKeys("C:\\Users\\QA\\IdeaProjects\\New folder (2)\\eleap-autotest\\dfdfdf.png");
+    }
+
+    private void clickChangePass() {
+        changePass.click();
+    }
+
+    private void clickSetPass() {
+        setPass.click();
+    }
+
+    private void addNewPass(CharSequence param) {
+        waitForElementToBeClickable(driver, newPass, 10);
+        newPass.sendKeys(param);
+    }
+
+    private void confirmPassField(CharSequence param) {
+        waitForElementToBeClickable(driver, newPass, 10);
+        confirmPass.sendKeys(param);
+    }
+
+    private void clickSpecialButton() {
+        specialInstruction.click();
+    }
+
+    private void clickGoToDashboard() {
+        waitForElementToBeClickable(driver, goToDashboard, 10);
+        goToDashboard.click();
+    }
+
+    private void clickSkipTour() {
+        waitForElementToBeClickable(driver, skipTour, 10);
+        skipTour.click();
+    }
+
+    private void clickUserGroupSection() {
+        UserGroupSection.click();
+    }
+
+    private void clickAddUserGroupButton() {
+        addUserGroupButton.click();
+    }
+
+    private void clickAddGroupButton() {
+        addGroup.click();
+    }
+
+    private void fillGroupNameField(CharSequence param) {
+        waitForElementToBeClickable(driver, groupNameField, 10);
+        groupNameField.sendKeys(param);
+    }
+
+    private void deleteGroup() throws InterruptedException {
+
+        try {
+            autoRobotGroup.isDisplayed();
+            waitForElementToBeClickable(driver, deleteUserGroup, 10);
+            deleteUserGroup.click();
+            alertMethod(driver);
+            boolean UserWasDeleted = success.isDisplayed();
+            assertEquals(true, UserWasDeleted);
+        } catch (Exception e) {
+
+        }
+    }
+
 
     public UserSectionPage createNewUser() throws InterruptedException {
         clickAddNewUserButton();
@@ -215,6 +348,13 @@ public class UserSectionPage extends BasePage {
         fillSearchByEmailField("rorborbfrf@gcv.ua");
         clickApplyFilters();
         deleteTheUser();
+        return this;
+
+    }
+
+    public UserSectionPage deleteUserGroup() throws InterruptedException {
+        clickUserGroupSection();
+        deleteGroup();
         return this;
 
     }
@@ -253,10 +393,6 @@ public class UserSectionPage extends BasePage {
     }
 
     public UserSectionPage uploadPhotoForUser() {
-        fillSearchByEmailField("rorborbfrf@gcv.ua");
-        clickApplyFilters();
-        clickUserButton();
-        clickUserProfile();
         clickDropdownPhoto();
         clickUploadPicture();
         clickInputFile();
@@ -265,4 +401,56 @@ public class UserSectionPage extends BasePage {
         return this;
     }
 
+    public UserSectionPage editUser() throws InterruptedException {
+        clickEditUserButton();
+        fillNameField("manual");
+        clickSaveChanges();
+        return this;
+
+    }
+
+    public UserSectionPage getUserProfile() throws InterruptedException {
+        fillSearchByEmailField("rorborbfrf@gcv.ua");
+        clickApplyFilters();
+        clickUserButton();
+        clickUserProfile();
+
+        return this;
+
+    }
+
+    public UserSectionPage uploadFileUser() throws InterruptedException {
+        clickChooseFileButton();
+        addFileFOrUSer();
+        return this;
+
+    }
+
+    public UserSectionPage changePassword() throws InterruptedException {
+        clickChangePass();
+        addNewPass("sdsddsdsds123");
+        confirmPassField("sdsddsdsds123");
+        clickSetPass();
+
+        return this;
+
+    }
+
+    public UserSectionPage newPageUserSettings() throws InterruptedException {
+        clickSpecialButton();
+        clickGoToDashboard();
+        clickSkipTour();
+
+        return this;
+    }
+
+    public UserSectionPage addUserGroup() {
+        clickUserGroupSection();
+        clickAddUserGroupButton();
+        fillGroupNameField("AutoRobot");
+        clickAddGroupButton();
+
+
+        return this;
+    }
 }

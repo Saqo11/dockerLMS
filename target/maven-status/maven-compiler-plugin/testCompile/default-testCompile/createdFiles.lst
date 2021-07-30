@@ -1,2 +1,5 @@
 com\lms\automation\MainTest.class
+com\lms\automation\UserSectionTest.class
 com\lms\automation\LoginAdminTest.class
+com\lms\automation\CourseSectionAdminTest.class
+com\lms\automation\OjtSectionTest.class

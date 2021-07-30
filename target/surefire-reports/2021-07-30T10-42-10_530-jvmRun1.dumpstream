@@ -1,0 +1,35 @@
+# Created at 2021-07-30T10:43:32.233
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-07-30T10:43:41.714
+Unexpected IOException: 7,1,com.lms.automation.CourseSectionAdminTest,addAQuizToTheLesson,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-4J87STC'\002C ip: '172.17.168.177'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.11'\000ADriver info: driver.version: RemoteWebDriver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-4J87STC'\002C ip: '172.17.168.177'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.11'\000ADriver info: driver.version: RemoteWebDriver,CourseSectionAdminTest>MainTest.start:53 \00BB UnreachableBrowser Could not start ...,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-4J87STC'\002C ip: '172.17.168.177'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.11'\000ADriver info: driver.version: RemoteWebDriver\000ACaused by: java.net.ConnectException: Failed to connect to /172.19.0.19:4444\000ACaused by: java.net.ConnectException: Connection timed out: connect\000A
+
+
+# Created at 2021-07-30T10:43:41.714
+Unexpected IOException: 5,1,com.lms.automation.CourseSectionAdminTest,quizResultsSection,null,null,null
+
+
+# Created at 2021-07-30T10:43:41.730
+Unexpected IOException with stream: Jul 30, 2021 10:43:41 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created at 2021-07-30T10:44:02.885
+Unexpected IOException: 7,1,com.lms.automation.CourseSectionAdminTest,quizResultsSection,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-4J87STC'\002C ip: '172.17.168.177'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.11'\000ADriver info: driver.version: RemoteWebDriver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-4J87STC'\002C ip: '172.17.168.177'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.11'\000ADriver info: driver.version: RemoteWebDriver,CourseSectionAdminTest>MainTest.start:53 \00BB UnreachableBrowser Could not start ...,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-4J87STC'\002C ip: '172.17.168.177'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.11'\000ADriver info: driver.version: RemoteWebDriver\000ACaused by: java.net.ConnectException: Failed to connect to /172.19.0.19:4444\000ACaused by: java.net.ConnectException: Connection timed out: connect\000A
+
+
+# Created at 2021-07-30T10:44:02.894
+Unexpected IOException: 5,1,com.lms.automation.CourseSectionAdminTest,myAssignedCoursesSearchByCourseName,null,null,null
+
+
+# Created at 2021-07-30T10:44:02.894
+Unexpected IOException with stream: Jul 30, 2021 10:44:02 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
