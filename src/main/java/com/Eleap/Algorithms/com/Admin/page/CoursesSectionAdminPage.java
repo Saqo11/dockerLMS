@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CoursesSectionAdminPage extends BasePage {
 
-    String SITE_URl = ("https://largeaccounttest.eleapdev.com/courses/");
+    String SITE_URl = ("https://largeaccounttest.2leap.com/courses/");
 
     public CoursesSectionAdminPage(WebDriver driver) {
         super(driver);

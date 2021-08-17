@@ -157,74 +157,74 @@ public class CourseSectionAdminTest extends MainTest {
                 .the_Unassigned_Users()
                 .ifDisplayedUnassigned();
     }
-//
-//    @Test
-//    public void selectTheLevelGroupFilters() throws InterruptedException {
-//        coursesSectionAdminPage
-//                .activateCourse()
-//                .select_The_Level_Group_Filters()
-//                .ifDisplayedInstructorauto();
-//    }
-//
-//    @Test
-//    public void assignNewUserGroup() throws InterruptedException {
-//        coursesSectionAdminPage
-//                .activateCourse()
-//                .assign_New_User_Group()
-//                .ifDisplayedUserGroupAdded();
-//    }
-//
-//    @Test
-//    public void unassignedSelectedUserGroups() throws InterruptedException {
-//        coursesSectionAdminPage
-//                .activateCourse()
-//                .unassigned_Selected_User_Groups()
-//                .ifDisplayedGroupsHaveBeenRemoved();
-//    }
-//
-//
-//    @Test
-//    public void assignNewTrainingPath() throws InterruptedException {
-//        coursesSectionAdminPage
-//                .activateCourse()
-//                .assign_New_Training_Path()
-//                .ifDisplayedOne();
-//    }
-//
-//    @Test
-//    public void unassignedSelectedTrainingPath() throws InterruptedException {
-//        coursesSectionAdminPage
-//                .activateCourse()
-//                .unassigned_Selected_Training_Path();
-//    }
-//
-//    @Test
-//    public void addQuizFromQuizBank() throws InterruptedException {
-//        quizResultTabs
-//                .addQuizFromQuizBank()
-//                .ifDisplayedQuestionAdded();
-//    }
-//
-//    @Test
-//    public void quizFilters() throws InterruptedException {
-//        quizResultTabs
-//                .quizFilters()
-//                .ifDisplayedQuestionCount();
-//    }
-//
-//    @Test
-//    public void quizSectionInactiveButton() throws InterruptedException {
-//        quizResultTabs
-//                .quizSectionInactiveQuestion()
-//                .ifDisplayedQuestionDeactivated();
-//    }
-//
-//    @Test
-//    public void deleteQuizzes() throws InterruptedException {
-//        quizResultTabs
-//                .deleteQuiz()
-//                .ifDisplayedDeletedQuestion();
-//    }
+
+    @Test
+    public void selectTheLevelGroupFilters() throws InterruptedException {
+        coursesSectionAdminPage
+                .activateCourse()
+                .select_The_Level_Group_Filters()
+                .ifDisplayedInstructorauto();
+    }
+
+    @Test
+    public void assignNewUserGroup() throws InterruptedException {
+        coursesSectionAdminPage
+                .activateCourse()
+                .assign_New_User_Group()
+                .ifDisplayedUserGroupAdded();
+    }
+
+    @Test
+    public void unassignedSelectedUserGroups() throws InterruptedException {
+        coursesSectionAdminPage
+                .activateCourse()
+                .unassigned_Selected_User_Groups()
+                .ifDisplayedGroupsHaveBeenRemoved();
+    }
+
+
+    @Test
+    public void assignNewTrainingPath() throws InterruptedException {
+        coursesSectionAdminPage
+                .activateCourse()
+                .assign_New_Training_Path()
+                .ifDisplayedOne();
+    }
+
+    @Test
+    public void unassignedSelectedTrainingPath() throws InterruptedException {
+        coursesSectionAdminPage
+                .activateCourse()
+                .unassigned_Selected_Training_Path();
+    }
+
+    @Test
+    public void addQuizFromQuizBank() throws InterruptedException {
+        quizResultTabs
+                .addQuizFromQuizBank()
+                .ifDisplayedQuestionAdded();
+    }
+
+    @Test
+    public void quizFilters() throws InterruptedException {
+        quizResultTabs
+                .quizFilters()
+                .ifDisplayedQuestionCount();
+    }
+
+    @Test
+    public void quizSectionInactiveButton() throws InterruptedException {
+        quizResultTabs
+                .quizSectionInactiveQuestion()
+                .ifDisplayedQuestionDeactivated();
+    }
+
+    @Test
+    public void deleteQuizzes() throws InterruptedException {
+        quizResultTabs
+                .deleteQuiz()
+                .ifDisplayedDeletedQuestion();
+    }
 
     @Test
     public void quizSettings() throws InterruptedException {

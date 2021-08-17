@@ -12,7 +12,7 @@ public class UserSectionPage extends BasePage {
         super(driver);
     }
 
-    String SITE_URL = ("https://largeaccounttest.eleapdev.com/users/");
+    String SITE_URL = ("https://largeaccounttest.2leap.com/users/");
 
     @FindBy(xpath = "//button[text()='Add new user']")
     private WebElement addNewUserButton;

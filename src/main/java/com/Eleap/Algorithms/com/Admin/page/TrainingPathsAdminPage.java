@@ -10,7 +10,7 @@ public class TrainingPathsAdminPage extends BasePage {
         super(driver);
     }
 
-    String SITE_URL = ("https://largeaccounttest.eleapdev.com/career_paths/");
+    String SITE_URL = ("https://largeaccounttest.2leap.com/career_paths/");
 
     @FindBy(css = "[data-target='#addPathModal']")
     private WebElement addTrainingPathButton;
